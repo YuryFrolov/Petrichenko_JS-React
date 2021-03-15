@@ -19,37 +19,37 @@
     </style>
 </head>
 <body>
-    <form class="form" action="">
+    <form class="form" action="#">
         <label class="form__label" for="name">Название фильма:</label>
-        <input class="form__text" type="text" id="name" placeholder="Гудзонский Ястреб">
+        <input class="form__text input" type="text" id="name" value="Гудзонский Ястреб">
 
         <label class="form__label" for="country">Страна:</label>
-        <input class="form__text" type="" id="country" placeholder="Тут будет массив">
+        <input class="form__text input" type="" id="country" value="USA">
 
         <label class="form__label" for="genre">Жанр:</label>
-        <input class="form__text" type="text" id="genre" placeholder="Тут будет массив">
+        <input class="form__text input" type="text" id="genre" value="Комедия">
 
         <label class="form__label" for="slogan">Слоган:</label>
-        <input class="form__text" type="text" id="slogan" placeholder="Тут будет массив">
+        <input class="form__text input" type="text" id="slogan" value="«Watch your step. Hold your breath. Hang on for dear life. And catch...the hawk»">
 
         <label class="form__label" for="actors">Актёры:</label>
-        <input class="form__text" type="text" id="actors" placeholder="Брюс Уиллис, тут будет массив">
+        <input class="form__text input" type="text" id="actors" value="Брюс Уиллис">
 
         <label class="form__label" for="description">Описание:</label>
-        <textarea class="form__textarea" id="description" placeholder="«Гудзонский Ястреб» — прозвище непревзойденного вора Эдди, который может открыть любой сейф за считанные секунды. Выйдя из тюрьмы, король кражи решает уйти на заслуженный отдых. Но слишком многие на свободе заинтересованы в его криминальном таланте. С помощью шантажа коварные злоумышленники заставляют Эдди совершить ограбление века: он должен похитить три шедевра Леонардо Да Винчи из самых охраняемых музеев мира всего за несколько дней! «Гудзонский Ястреб» снова отправляется на охоту, но на этот раз в бескрайнем небе он не одинок..."></textarea>
+        <textarea class="form__textarea input" id="description">Гудзонский Ястреб» — прозвище непревзойденного вора Эдди, который может открыть любой сейф за считанные секунды. Выйдя из тюрьмы, король кражи решает уйти на заслуженный отдых. Но слишком многие на свободе заинтересованы в его криминальном таланте. С помощью шантажа коварные злоумышленники заставляют Эдди совершить ограбление века: он должен похитить три шедевра Леонардо Да Винчи из самых охраняемых музеев мира всего за несколько дней! «Гудзонский Ястреб» снова отправляется на охоту, но на этот раз в бескрайнем небе он не одинок...</textarea>
         
-        <label class="form__label" for="min-age">Минимальный возраст:</label>
-        <input class="form__number" type="number" id="min-age" value="2">
+        <label class="form__label" for="minAge">Минимальный возраст:</label>
+        <input class="form__number input" type="number" id="minAge" value="2">
 
         <label class="form__label" for="rating">Рейтинг:</label>
-        <input class="form__range" type="range" id="ratingInput" min="0" max="10" step="0.5" value="5.0">
-        <label class="form__label" id="ratingValue"></label>
+        <input class="form__range input" type="range" id="ratingInput" min="0" max="10" step="0.5" value="5.0">
+        <span class="form__count" id="ratingValue"></span>
 
         <label class="form__label" for="duration">Продолжительность:</label>
-        <input class="form__time" type="time" id="duration" placeholder="" value="02:30:27">
+        <input class="form__time input" type="time" id="duration" value="02:30:27">
 
         <label class="form__label" for="poster">Обложка:</label>
-        <input class="form__file" type="file" id="poster" placeholder="">
+        <input class="form__file input" type="file" id="poster">
         
         <input class="form__submit" type="submit" value="Добавить фильм">  
     </form>
